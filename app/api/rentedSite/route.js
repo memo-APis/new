@@ -1,6 +1,6 @@
-import dbConnect from "@/app/lib/dbConnect";
 import RentedSite from "@/models/rentedSite";
 import { NextResponse } from "next/server";
+import dbConnect from "@/lib/dbConnect";                                            
 
 
 export async function POST(req, res) {
